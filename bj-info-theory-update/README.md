@@ -4,23 +4,9 @@ Rigorous mathematical treatment of blackjack card counting using information the
 
 ---
 
-## Mathematical Documentation
 
-** IMPORTANT: See `MathWork.pdf` for complete mathematical derivations**
 
-The file **`MathWork.pdf`** in the root directory contains:
-- **Complete proofs** of all theorems referenced in this README
-- **Step-by-step derivations** of information-theoretic bounds
-- **Hand-worked calculations** of entropy, mutual information, and expected value
-- **Detailed equations** for all counting systems and their optimality
-- **Formal mathematical framework** underlying the computational results
 
-This PDF shows all hand-written mathematical work that supports the code implementation. Review it for:
-- Proof of Theorem 1 (Information-Advantage Bound)
-- Proof of Theorem 2 (Information Preservation Ratio)
-- Derivation of $\rho_{\mathcal{S}}$ for each counting system
-- Calculation of empirical constant $C \approx 0.0147$
-- Entropy calculations and mutual information bounds
 
 **The code validates these theoretical results through simulation.**
 
